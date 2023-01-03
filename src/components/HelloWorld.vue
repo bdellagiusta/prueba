@@ -5930,10 +5930,13 @@ li {
 }
 .title{
   font-size:1.5rem;
-
+  
 }
 
 .year{
+  margin-top:0px;
+  padding-top: 0px;
+  line-height:1.5rem;
   font-size:2rem;
   font-weight: 900;
   color:azure;
@@ -5995,7 +5998,7 @@ span{
 }
  
 footer{
-  padding: 50px 0;
+  padding: 10px 0;
 }
  
 .footer-container{
@@ -6035,10 +6038,6 @@ footer{
   .footer-container{
     max-width: 600px;
   }
-  .right-col{
-    width: 100%;
-    margin-bottom: 50px;
-  }
  
   .left-col{
     width: 100%;
@@ -6046,14 +6045,8 @@ footer{
   }
 }
 .rights-text{
-  color:white
+  color:white;
+  font-size: 0.85rem;
 }
  
-@media screen and (max-width:700px){
-  .btn{
-    margin: 0;
-    width: 100%;
-    margin-top: 10px;
-    }
-}
 </style>
