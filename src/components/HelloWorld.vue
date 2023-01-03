@@ -1,4 +1,6 @@
 <template>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
   <div class="hello">
     <div class="banner">¿Qué mirás, bobo?</div>
     <img class="img" />
@@ -7,7 +9,19 @@
     <p class="year">{{randomElement.year}}</p>
     <button class="botton" @click="reloadPage">Refresh</button>
 
-
+    <footer>
+      <div class="footer-container">
+        <div class="left-col">
+          <img src="logo.png" alt="" class="logo">
+          <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=100006733605951"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/iamcoffeeboy0"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/iamcoffeeboy0/"><i class="fab fa-instagram"></i></a>
+          </div>
+          <p class="rights-text">© 2022 Created By <b>@iamcoffeeboy0</b>  All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -5964,5 +5978,82 @@ a{
 }
 .hello{
   background-color: rgb(34, 34, 34);
+}
+footer{
+  font-size: 1rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;600&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Yaldevi', sans-serif;
+}
+span{
+  color: #fc5c65;
+  font-weight:900;
+ 
+}
+ 
+footer{
+  padding: 50px 0;
+}
+ 
+.footer-container{
+  max-width: 1800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+ 
+.logo{
+  width: 180px;
+}
+ 
+.social-media{
+  margin: 20px 0;
+}
+ 
+.social-media a{
+  color: white;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+ 
+.social-media a:hover{
+  color: #fc5c65;
+}
+ 
+.right-col h1{
+  font-size: 26px;
+}
+ 
+@media screen and (max-width:960px) {
+  .footer-container{
+    max-width: 600px;
+  }
+  .right-col{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+ 
+  .left-col{
+    width: 100%;
+    text-align: center;
+  }
+}
+.rights-text{
+  color:white
+}
+ 
+@media screen and (max-width:700px){
+  .btn{
+    margin: 0;
+    width: 100%;
+    margin-top: 10px;
+    }
 }
 </style>
