@@ -1,11 +1,11 @@
 <template>
   <div class="hello">
-    <div class="banner">¿Qué veo hoy?</div>
+    <div class="banner">¿Qué mirás, bobo?</div>
     <img class="img" />
     <a :href='randomElement.url'>
     <p class="title" >{{randomElement.name}}</p></a>
     <p class="year">{{randomElement.year}}</p>
-    <button class="botton" @click="reloadPage">Actualiza</button>
+    <button class="botton" @click="reloadPage">Refresh</button>
 
 
   </div>
@@ -5929,12 +5929,12 @@ li {
     background-image: url(../assets/fondo.jpg);
     background-size: 100%;
     border: 2px solid black;
-    height: 200px;
-    width: 80%;
+    height: 170px;
+    width: 90%;
     margin-top:1rem;
   }
 }
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 1001px) {
   .img {
     background-image: url(../assets/logo-big.png);
     width: 80%;
