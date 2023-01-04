@@ -1,5 +1,6 @@
 <template>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <div class="hello">
     <div class="banner">¿Qué mirás, bobo?</div>
@@ -7,7 +8,8 @@
     <a :href='randomElement.url'>
     <p class="title" >{{randomElement.name}}</p></a>
     <p class="year">{{randomElement.year}}</p>
-    <button class="botton" @click="reloadPage">Refresh</button>
+    <button class="botton" @click="reloadPage"><i class="fa fa-refresh" aria-hidden="true"></i>
+      Refresh</button>
 
     <footer>
       <div class="footer-container">
@@ -5972,10 +5974,14 @@ li {
   padding-bottom: 1rem;
 }
 .botton{
-  width: 90%;
-  height: 2rem;
+  width: 120px;
+  height: 50px;
+  margin: 0 auto;
+  vertical-align: middle;
   font-weight: 800;
+  border-radius: 0.6rem;
   font-size:1rem;
+  color: rgb(30, 30, 30);
 }
 a{
   color:rgb(236, 236, 236)
