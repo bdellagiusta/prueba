@@ -18,7 +18,7 @@
             <a href="https://twitter.com/iamcoffeeboy0"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com/iamcoffeeboy0/"><i class="fab fa-instagram"></i></a>
           </div>
-          <p class="rights-text">© 2022 Created By <b>@iamcoffeeboy0</b>  All Rights Reserved.</p>
+          <p class="rights-text">© 2022 Created By <b>@iamcoffeeboy0</b>.  All Rights Reserved.</p>
         </div>
       </div>
     </footer>
@@ -5963,9 +5963,10 @@ li {
   }
   }
 .banner{
+  font-family: 'Roboto Slab', serif;
   font-size: 2rem;
   text-transform: uppercase;
-  background-color: black;
+  background-color: rgb(30, 30, 30);
   color:white; 
   padding-top: 1rem; 
   padding-bottom: 1rem;
@@ -5985,6 +5986,8 @@ a{
 footer{
   font-size: 1rem;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;600&display=swap');
 body{
   margin: 0;
