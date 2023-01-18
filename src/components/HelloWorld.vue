@@ -7,7 +7,7 @@
 
     <button v-on:click="isHidden = !isHidden">
       <div v-if="isHidden">
-        <img src="../assets/filmin.webp" width="600" height="300"/>
+        <img src="../assets/filmin.webp" width="300" height="150"/>
       </div>
       <div v-if="!isHidden">
         Cantina
