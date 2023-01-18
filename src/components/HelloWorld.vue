@@ -5,15 +5,15 @@
     <div class="banner">¿Qué mirás, bobo?</div>
     
 
-    <button v-on:click="isHidden = !isHidden">
+    <div v-on:click="isHidden = !isHidden">
       <div v-if="isHidden">
-        <img src="../assets/filmin.webp" width="300" height="150"/>
+        <img class="img" src="../assets/filmin.webp" width="300" height="150"/>
       </div>
       <div v-if="!isHidden">
-        <img src="../assets/lcdl.png" width="300" height="150"/>
+        <img class="img" src="../assets/lcdl.png" width="300" height="150"/>
 
         </div>
-    </button>
+      </div>
     <div id="hello" v-if="isHidden">
         <a :href='randomElementFilmin.url'>
         <p class="title" >{{randomElementFilmin.name}}</p></a>
@@ -2495,6 +2495,8 @@ footer{
   font-size: 0.85rem;
 }
 
-
+.img{
+  margin-top:1rem;
+}
  
 </style>
