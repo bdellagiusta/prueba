@@ -10,7 +10,8 @@
         <img src="../assets/filmin.webp" width="300" height="150"/>
       </div>
       <div v-if="!isHidden">
-        Cantina
+        <img src="../assets/lcdl.png" width="300" height="150"/>
+
         </div>
     </button>
     <div id="hello" v-if="isHidden">
@@ -24,8 +25,9 @@
       <a :href='randomElementCantina.url'>
       <p class="title" >{{randomElementCantina.name}}</p></a>
       <p class="year">{{randomElementCantina.year}}</p>
-      <button class="botton" @click="reloadPage"><i class="fa fa-refresh" aria-hidden="true"></i>
+      <button class="botton"  @click="reloadPage"><i class="fa fa-refresh" aria-hidden="true"></i>
         Refresh</button>
+        
    </div>
     </div>
 
@@ -49,6 +51,9 @@
 <script>
 export default {
   name: 'HelloWorld',
+  setup (){
+    return
+  },
   methods: {
     reloadPage() {
       window.location.reload();
