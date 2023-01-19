@@ -42,7 +42,8 @@
             <a href="https://twitter.com/iamcoffeeboy0"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com/iamcoffeeboy0/"><i class="fab fa-instagram"></i></a>
           </div>
-          <p class="rights-text">© 2022 Created By <b>@iamcoffeeboy0</b>.  All Rights Reserved.</p>
+          <p class="rights-text">© 2022 Created by <b>@iamcoffeeboy0</b>  </p>
+          <p class="rights-text">All Rights Reserved.</p>  
         </div>
       </div>
     </footer>
@@ -2398,7 +2399,7 @@ li {
   line-height:1.5rem;
   font-size:2rem;
   font-weight: 900;
-  color:azure;
+  color:white;
 }  
 
 .banner{
@@ -2407,8 +2408,7 @@ li {
   text-transform: uppercase;
   background-color: rgb(30, 30, 30);
   color:white; 
-  padding-top: 1rem; 
-  padding-bottom: 1rem;
+  padding: 0.25rem
 }
 .botton{
   width: 120px;
@@ -2475,21 +2475,14 @@ footer{
 .social-media a:hover{
   color: #fc5c65;
 }
- 
-.right-col h1{
-  font-size: 26px;
-}
- 
-@media screen and (max-width:960px) {
-  .footer-container{
-    max-width: 600px;
+   .footer-container{
+    max-width: 250px;
   }
  
   .left-col{
     width: 100%;
     text-align: center;
   }
-}
 .rights-text{
   color:white;
   font-size: 0.85rem;
